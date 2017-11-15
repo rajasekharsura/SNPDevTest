@@ -3,7 +3,7 @@
 echo "Installing MySql"
 
 
-zypper install mysql-community-server
+zypper install -y mysql-community-server
 
 insserv mysql
 
