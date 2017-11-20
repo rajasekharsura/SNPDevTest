@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Mysql",
+    "publisher": "SNP – SUSE Install",
+    "description": "Install Mysql on SUSE Linux",
+    "tags": [
+        "Linux"
+    ],
+    "iconUri": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+    "targetOsType": "Linux",
+    "runCommand": {
+        "commandToExecute": "['sh linux_install_mysql_v1.sh ']"
+    }
+}

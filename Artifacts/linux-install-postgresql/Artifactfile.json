@@ -7,7 +7,7 @@
         "PostgreSQLdb",
         "Linux"
     ],
-    "iconUri": "https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/1200px-MySQL.svg.png",
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png",
     "targetOsType": "Linux",
     "runCommand": {
         "commandToExecute": "['sh linux_install_postgresqldb_v1.sh']"

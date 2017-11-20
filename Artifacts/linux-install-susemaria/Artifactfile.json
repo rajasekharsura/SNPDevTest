@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "MariaDB",
+    "publisher": " SNP – SUSE Install ",
+    "description": "Install MariaDB on linux",
+    "tags": [
+        "Linux"
+    ],
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/c/c9/MariaDB_Logo.png",
+    "targetOsType": "Linux",
+    "runCommand": {
+        "commandToExecute": "['sh linux_install_mariadb_v1.sh']"
+    }
+}
