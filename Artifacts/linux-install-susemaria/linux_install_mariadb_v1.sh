@@ -6,13 +6,8 @@ isZypper=`command -v zypper`
 set -e
 if [ -n "$isZypper" ] ; then
     echo "Using zypper package manager"
-sudo zypper install -y mariadb mariadb-client mariadb-tools
-
-sudo systemctl start mysql
-
-systemctl status mysql
-
-
-mysql –version
-
+    zypper install -y mariadb mariadb-client mariadb-tools
+    systemctl start mysql
+    systemctl status mysql
+    
 fi
