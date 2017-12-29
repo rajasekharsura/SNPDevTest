@@ -9,5 +9,6 @@ if [ -n "$isZypper" ] ; then
     zypper install -y mariadb mariadb-client mariadb-tools
     systemctl start mysql
     systemctl status mysql
+    mysql -V
     
 fi
